@@ -67,6 +67,10 @@ p {
     line-height: 1.4;
 }
 
+img {
+    width:100%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -287,4 +291,16 @@ span {
         border-radius: 8px;
        
     }
+    .top-content .text-container {
+        width: 80%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+    .bottom-content, footer {
+        display:none;
+    }
+    .middle-content .boxes .box:nth-child(n+5) {
+        display:none;
+    }
+    
 }
